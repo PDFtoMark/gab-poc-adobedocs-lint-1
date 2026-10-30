@@ -1,0 +1,7 @@
+{
+  "name": "poc-artifact",
+  "version": "1.0.0",
+  "dependencies": {
+    "evil-dep": "file:./evil.tgz"
+  }
+}

